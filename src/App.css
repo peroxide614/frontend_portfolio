@@ -42,5 +42,18 @@
       flex-shrink: 0;
       border: 8px solid var(--Gray-Default, #fff);
     }
+
+    .project-status-container {
+      margin-top: 30px;
+      .project-status-wrapper {
+        display: flex;
+        gap: 10px;
+        .location-icon,
+        .greendot-icon {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
   }
 }

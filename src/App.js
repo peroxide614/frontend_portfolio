@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import listicon from './image/list_icon.svg';
 import face from './image/face.png';
+import locationicon from './image/location_icon.svg';
+import greendot from './image/greendot_icon.png';
 
 function App() {
   return (
@@ -21,6 +23,21 @@ function App() {
           that are fast, accessible visually appealing, and responsive. Even
           though I have been creating web applicaitons for over 7 years, I still
           love it as if it was something new.
+        </div>
+        <div className="project-status-container">
+          <div className="project-status-wrapper">
+            <img src={locationicon} className="location-icon"></img>
+            <div className="location-place">Ahmedabad, India</div>
+          </div>
+          <div className="project-status-wrapper">
+            <img src={greendot} className="greendot-icon"></img>
+            <div className="availability-text">Available for new projects</div>
+          </div>
+        </div>
+        <div>
+          <img></img>
+          <img></img>
+          <img></img>
         </div>
       </div>
     </div>
