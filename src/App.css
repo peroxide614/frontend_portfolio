@@ -80,6 +80,34 @@
       border-radius: 12px;
       padding: 4px 20px;
       background: var(--Gray-200, #e5e7eb);
+      margin-bottom: 24px;
+    }
+
+    .my-face-picture {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 280px;
+      height: 360px;
+      margin: 0 auto;
+
+      .my-face {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .details-paragraph {
+      color: var(--Gray-900, #111827);
+
+      /* я намагаюсь довго зробити шоб воно не було відцентровано але поки якось не дуже вдачно виходить */
+      font-family: Inter;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 32px; /* 133.333% */
+      letter-spacing: -0.48px;
     }
   }
 }

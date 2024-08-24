@@ -45,8 +45,12 @@ function App() {
       </div>
       <div className="details">
         <div className="about-me-oval">About me</div>
-        <img></img>
-        <div></div>
+        <div className="my-face-picture">
+          <img src={face} className="my-face"></img>
+        </div>
+        <div className="details-paragraph">
+          Curious about me? Here you have it:
+        </div>
         <div></div>
       </div>
     </div>
