@@ -4,6 +4,9 @@ import listicon from './image/list_icon.svg';
 import face from './image/face.png';
 import locationicon from './image/location_icon.svg';
 import greendot from './image/greendot_icon.png';
+import github from './image/github_logo.svg';
+import stackoverflow from './image/stackoverflow_logo.svg';
+import twitter from './image/twitter_logo.svg';
 
 function App() {
   return (
@@ -13,7 +16,7 @@ function App() {
         <img className="top-right-icon" src={listicon}></img>
       </div>
       <div className="profile-info">
-        <div>
+        <div className="my-face-picture">
           <img src={face} className="my-face"></img>
         </div>
         <div className="profile-title">Hi, I`m Sagar</div>
@@ -34,10 +37,10 @@ function App() {
             <div className="availability-text">Available for new projects</div>
           </div>
         </div>
-        <div>
-          <img></img>
-          <img></img>
-          <img></img>
+        <div className="personal-resources">
+          <img src={github} className="logo-redirect"></img>
+          <img src={stackoverflow} className="logo-redirect"></img>
+          <img src={twitter} className="logo-redirect"></img>
         </div>
       </div>
     </div>
