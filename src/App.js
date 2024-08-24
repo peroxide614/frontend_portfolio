@@ -43,6 +43,12 @@ function App() {
           <img src={twitter} className="logo-redirect"></img>
         </div>
       </div>
+      <div className="details">
+        <div className="about-me-oval">About me</div>
+        <img></img>
+        <div></div>
+        <div></div>
+      </div>
     </div>
   );
 }
