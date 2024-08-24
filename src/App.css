@@ -100,9 +100,8 @@
 
     .details-paragraph {
       color: var(--Gray-900, #111827);
-
+      text-align: left;
       /* я намагаюсь довго зробити шоб воно не було відцентровано але поки якось не дуже вдачно виходить */
-      font-family: Inter;
       font-size: 24px;
       font-style: normal;
       font-weight: 600;
