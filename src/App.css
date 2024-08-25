@@ -103,6 +103,7 @@
       text-align: left;
       /* я намагаюсь довго зробити шоб воно не було відцентровано але поки якось не дуже вдачно виходить */
       font-size: 24px;
+      margin-top: 48px;
       font-style: normal;
       font-weight: 600;
       line-height: 32px; /* 133.333% */
