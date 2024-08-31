@@ -8,6 +8,24 @@ import github from './image/github_logo.svg';
 import stackoverflow from './image/stackoverflow_logo.svg';
 import twitter from './image/twitter_logo.svg';
 
+import js from './image/js_logo.png';
+import ts from './image/ts_logo.png';
+import react from './image/react_logo.png';
+import next from './image/nextjs_logo.png';
+import node from './image/nodejs_logo.png';
+import express from './image/expressjs_logo.png';
+import nest from './image/nestjs_logo.png';
+// import socket from './image/socketjs_logo.jpg';
+// import postgre from './image/postgreSQL_logo.png';
+// import mongo from './image/mongodb_logo.png';
+// import sass from './image/sass_logo.png';
+import tailwind from './image/tailwindcss_logo.png';
+// import figma from './image/figma_logo.png';
+// import cypress from './image/cypress_logo.png';
+// import storybook from './image/storybook_logo.png';
+// import git from './image/git';
+import upwork from './image/logo-upwork.png';
+
 function App() {
   return (
     <div className="full-page">
@@ -92,8 +110,78 @@ function App() {
             reach out and say hello! I promise I don`t bite 😉
           </div>
         </div>
-        <div className="skills-and-logos">
+      </div>
+      <div className="skills-and-logos">
+        <div className="skills-wrapper">
           <div className="skills-oval">Skills</div>
+          <div>The skills, tools and technologies I am really good at:</div>
+        </div>
+        <div className="achievements">
+          <div className="logo-and-name-wrapper">
+            <img src={js} className="logo-from-skills"></img>
+            <div>Javascript</div>
+          </div>
+          <div className="logo-and-name-wrapper">
+            <img src={ts} className="logo-from-skills"></img>
+            <div>Typescript</div>
+          </div>
+          <div className="logo-and-name-wrapper">
+            <img src={react} className="logo-from-skills"></img>
+            <div>React</div>
+          </div>
+          <div className="logo-and-name-wrapper">
+            <img src={next} className="logo-from-skills"></img>
+            <div>Next.js</div>
+          </div>
+          <div className="logo-and-name-wrapper">
+            <img src={node} className="logo-from-skills"></img>
+            <div>Node.js</div>
+          </div>
+          <div className="logo-and-name-wrapper">
+            <img src={express} className="logo-from-skills"></img>
+            <div>Express.js</div>
+          </div>
+          <div className="logo-and-name-wrapper">
+            <img src={nest} className="logo-from-skills"></img>
+            <div>Nest.js</div>
+          </div>
+          <div className="logo-and-name-wrapper">
+            <img src={nest} className="logo-from-skills"></img>
+            <div>Nest.js</div>
+          </div>
+          <div className="logo-and-name-wrapper">
+            <img src={nest} className="logo-from-skills"></img>
+            <div>Nest.js</div>
+          </div>
+          <div className="logo-and-name-wrapper">
+            <img src={nest} className="logo-from-skills"></img>
+            <div>Nest.js</div>
+          </div>
+          <div className="logo-and-name-wrapper">
+            <img src={nest} className="logo-from-skills"></img>
+            <div>Nest.js</div>
+          </div>
+          <div className="logo-and-name-wrapper">
+            <img src={tailwind} className="logo-from-skills"></img>
+            <div>Nest.js</div>
+          </div>
+        </div>
+      </div>
+      <div className="experience">
+        <div className="skills-wrapper">
+          <div className="experience-oval">Experience</div>
+          <div>Here is a quick summary of my most recent experiences:</div>
+        </div>
+        <div className="experience-element">
+          <img className="upwork-logo" src={upwork}></img>
+          <div className="experience-date">Nov 2021 - Present</div>
+          <div className="experience-role">Sr. Frontend Developer</div>
+          <ul className="experience-list">
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Ut pretium arcu et massa semper, id fringilla leo semper.</li>
+            <li>Sed quis justo ac magna.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          </ul>
         </div>
       </div>
     </div>
