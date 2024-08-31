@@ -18,6 +18,7 @@ function App() {
       <div className="profile-info">
         <div className="my-face-picture">
           <img src={face} className="my-face"></img>
+          <div className="my-face-background"></div>
         </div>
         <div className="profile-title">Hi, I`m Sagar</div>
         <div>
@@ -80,11 +81,19 @@ function App() {
             can follow me on GitHub.
           </div>
           <div className="details-text">Finally, some quick bits about me.</div>
-          <div className="details-text">blah blah list</div>
+          <ul className="skills-list">
+            <li>B.E. in Computer Engineering</li>
+            <li>Avid learner</li>
+            <li>Full time freelancer</li>
+            <li>Aspiring indie hacker</li>
+          </ul>
           <div className="details-text">
             One last thing, I`m available for freelance work, so feel free to
             reach out and say hello! I promise I don`t bite 😉
           </div>
+        </div>
+        <div className="skills-and-logos">
+          <div className="skills-oval">Skills</div>
         </div>
       </div>
     </div>
