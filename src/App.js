@@ -25,6 +25,9 @@ import tailwind from './image/tailwindcss_logo.png';
 // import storybook from './image/storybook_logo.png';
 // import git from './image/git';
 import upwork from './image/logo-upwork.png';
+import fiskil from './image/fiskil_logo.png';
+import redirecticon from './image/redirect_icon.png';
+import usericon from './image/icon-user.svg';
 
 function App() {
   return (
@@ -172,16 +175,189 @@ function App() {
           <div className="experience-oval">Experience</div>
           <div>Here is a quick summary of my most recent experiences:</div>
         </div>
-        <div className="experience-element">
-          <img className="upwork-logo" src={upwork}></img>
-          <div className="experience-date">Nov 2021 - Present</div>
-          <div className="experience-role">Sr. Frontend Developer</div>
-          <ul className="experience-list">
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li>Ut pretium arcu et massa semper, id fringilla leo semper.</li>
-            <li>Sed quis justo ac magna.</li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          </ul>
+        <div className="experience-wrapper">
+          <div className="experience-element">
+            <img className="upwork-logo" src={upwork}></img>
+            <div className="experience-date">Nov 2021 - Present</div>
+            <div className="experience-role">Sr. Frontend Developer</div>
+            <ul className="experience-list">
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li>Ut pretium arcu et massa semper, id fringilla leo semper.</li>
+              <li>Sed quis justo ac magna.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            </ul>
+          </div>
+          <div className="experience-element">
+            <img className="upwork-logo" src={upwork}></img>
+            <div className="experience-date">Jul 2017 - Oct 2021</div>
+            <div className="experience-role">Team Lead</div>
+            <ul className="experience-list">
+              <li>Sed quis justo ac magna.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li>Sed quis justo ac magna.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            </ul>
+          </div>
+          <div className="experience-element">
+            <img className="upwork-logo" src={upwork}></img>
+            <div className="experience-date">Dec 2015 - May 2017</div>
+            <div className="experience-role">Full Stack Developer</div>
+            <ul className="experience-list">
+              <li>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="portfolio-element">
+        <div className="skills-wrapper">
+          <div className="portfolio-oval">Work</div>
+          <div>Some of the noteworthy projects I have built:</div>
+        </div>
+        <div className="big-list-of-exp">
+          <div className="element-of-list">
+            <div className="image-example">
+              <img src={fiskil} className="fiskil-logo"></img>
+            </div>
+            <div className="project-info">
+              <div className="project-name">Fiskil</div>
+              <div className="project-full-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante
+                ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                curae.
+              </div>
+              <div className="project-used-tools">
+                <div className="tools-row-wrapper">
+                  <div className="tools-name">React</div>
+                  <div className="tools-name">Next.js</div>
+                </div>
+                <div className="tools-row-wrapper">
+                  <div className="tools-name">Typescript</div>
+                  <div className="tools-name">Nest.js</div>
+                </div>
+                <div className="tools-row-wrapper">
+                  <div className="tools-name">PostgreSQL</div>
+                  <div className="tools-name">Tailwindcss</div>
+                </div>
+                <div className="tools-row-wrapper">
+                  <div className="tools-name">Figma</div>
+                  <div className="tools-name">Cypress</div>
+                </div>
+                <div className="tools-row-wrapper">
+                  <div className="tools-name">Storybook</div>
+                  <div className="tools-name">Git</div>
+                </div>
+              </div>
+              <div className="project-redirect">
+                <img src={redirecticon} className="redirect"></img>
+              </div>
+            </div>
+          </div>
+          <div className="element-of-list">
+            <div className="image-example">
+              <img src={fiskil} className="fiskil-logo"></img>
+            </div>
+            <div className="project-info">
+              <div className="project-name">Fiskil</div>
+              <div className="project-full-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante
+                ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                curae.
+              </div>
+              <div className="project-used-tools">
+                <div className="tools-row-wrapper">
+                  <div className="tools-name">React</div>
+                  <div className="tools-name">Next.js</div>
+                </div>
+                <div className="tools-row-wrapper">
+                  <div className="tools-name">Typescript</div>
+                  <div className="tools-name">Nest.js</div>
+                </div>
+                <div className="tools-row-wrapper">
+                  <div className="tools-name">PostgreSQL</div>
+                  <div className="tools-name">Tailwindcss</div>
+                </div>
+                <div className="tools-row-wrapper">
+                  <div className="tools-name">Figma</div>
+                  <div className="tools-name">Cypress</div>
+                </div>
+                <div className="tools-row-wrapper">
+                  <div className="tools-name">Storybook</div>
+                  <div className="tools-name">Git</div>
+                </div>
+              </div>
+              <div className="project-redirect">
+                <img src={redirecticon} className="redirect"></img>
+              </div>
+            </div>
+          </div>
+          <div className="element-of-list">
+            <div className="image-example">
+              <img src={fiskil} className="fiskil-logo"></img>
+            </div>
+            <div className="project-info">
+              <div className="project-name">Fiskil</div>
+              <div className="project-full-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante
+                ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                curae.
+              </div>
+              <div className="project-used-tools">
+                <div className="tools-row-wrapper">
+                  <div className="tools-name">React</div>
+                  <div className="tools-name">Next.js</div>
+                </div>
+                <div className="tools-row-wrapper">
+                  <div className="tools-name">Typescript</div>
+                  <div className="tools-name">Nest.js</div>
+                </div>
+                <div className="tools-row-wrapper">
+                  <div className="tools-name">PostgreSQL</div>
+                  <div className="tools-name">Tailwindcss</div>
+                </div>
+                <div className="tools-row-wrapper">
+                  <div className="tools-name">Figma</div>
+                  <div className="tools-name">Cypress</div>
+                </div>
+                <div className="tools-row-wrapper">
+                  <div className="tools-name">Storybook</div>
+                  <div className="tools-name">Git</div>
+                </div>
+              </div>
+              <div className="project-redirect">
+                <img src={redirecticon} className="redirect"></img>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="testimonials-element">
+        <div className="testimonials-wrapper">
+          <div className="testimonials-oval">Testimonials</div>
+          <div>Nice things people have said about me:</div>
+        </div>
+        <div className="reviews">
+          <div className="single-review">
+            <div className="user-img">
+              <img className="review-icon" src={usericon}></img>
+            </div>
+            <div>
+              “Job well done! I am really impressed. He is very very good at
+              what he does:) I would recommend Sagar and will rehire in the
+              future for Frontend development.”
+            </div>
+            <div>
+              <div>John Doe</div>
+              <div>Founder - xyz.com</div>
+            </div>
+          </div>
+          <div></div>
+          <div></div>
         </div>
       </div>
     </div>
