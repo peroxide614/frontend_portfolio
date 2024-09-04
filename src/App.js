@@ -343,21 +343,62 @@ function App() {
         </div>
         <div className="reviews">
           <div className="single-review">
-            <div className="user-img">
-              <img className="review-icon" src={usericon}></img>
+            <div className="icon-wrapper">
+              <div className="user-img">
+                <img className="review-icon" src={usericon}></img>
+              </div>
             </div>
-            <div>
+            <div className="person-text-review">
               “Job well done! I am really impressed. He is very very good at
               what he does:) I would recommend Sagar and will rehire in the
               future for Frontend development.”
             </div>
-            <div>
-              <div>John Doe</div>
-              <div>Founder - xyz.com</div>
+            <div className="person-creds">
+              <div className="person-name">John Doe</div>
+              <div className="person-role">Founder - xyz.com</div>
             </div>
           </div>
-          <div></div>
-          <div></div>
+          <div className="single-review">
+            <div className="icon-wrapper">
+              <div className="user-img">
+                <img className="review-icon" src={usericon}></img>
+              </div>
+            </div>
+            <div className="person-text-review">
+              “Job well done! I am really impressed. He is very very good at
+              what he does:) I would recommend Sagar and will rehire in the
+              future for Frontend development.”
+            </div>
+            <div className="person-creds">
+              <div className="person-name">John Doe</div>
+              <div className="person-role">Founder - xyz.com</div>
+            </div>
+          </div>
+          <div className="single-review">
+            <div className="icon-wrapper">
+              <div className="user-img">
+                <img className="review-icon" src={usericon}></img>
+              </div>
+            </div>
+            <div className="person-text-review">
+              “Job well done! I am really impressed. He is very very good at
+              what he does:) I would recommend Sagar and will rehire in the
+              future for Frontend development.”
+            </div>
+            <div className="person-creds">
+              <div className="person-name">John Doe</div>
+              <div className="person-role">Founder - xyz.com</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="contacts-element">
+        <div className="contacts-wrapper">
+          <div className="contacts-oval">Get in touch</div>
+          <div className="contacts-text">
+            What`s next? Feel free to reach out to me if you`re looking for a
+            developer, have a query, or simply want to connect.
+          </div>
         </div>
       </div>
     </div>
