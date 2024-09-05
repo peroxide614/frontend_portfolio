@@ -443,6 +443,9 @@
   }
 
   .contacts-element {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
     padding: 64px 16px;
 
     .contacts-wrapper {
@@ -466,6 +469,92 @@
         font-style: normal;
         font-weight: 400;
         line-height: 28px;
+      }
+    }
+
+    .email-and-number-wrapper {
+      .email-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+
+        .first-icon,
+        .second-icon {
+          /* width: 24px;
+          height: 24px;
+          display: flex;
+          justify-content: center;
+          align-items: center; */
+          .front-icon,
+          .back-icon {
+            width: 24px;
+            height: 24px;
+          }
+        }
+
+        .credential {
+          color: #111827;
+          text-align: center;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 28px;
+          letter-spacing: -0.36px;
+        }
+      }
+    }
+
+    .redirect-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      .redirect-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        color: #4b5563;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+      }
+
+      .redirect-logos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .logo-redirect {
+          padding: 6px;
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+  }
+
+  .footer-element {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: center;
+    padding: 24px 0;
+    background-color: #f9fafb;
+    line-height: 20px;
+    width: 100%;
+    gap: 8px;
+    font-size: 14px;
+
+    .footer-logo {
+      width: 16px;
+      height: 16px;
+
+      .copyright-logo {
+        width: 100%;
+        height: 100%;
       }
     }
   }

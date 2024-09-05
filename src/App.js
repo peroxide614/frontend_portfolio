@@ -28,6 +28,9 @@ import upwork from './image/logo-upwork.png';
 import fiskil from './image/fiskil_logo.png';
 import redirecticon from './image/redirect_icon.png';
 import usericon from './image/icon-user.svg';
+import emailicon from './image/email_icon.png';
+import phoneicon from './image/phone_icon.png';
+import copyicon from './image/copy_icon.png';
 
 function App() {
   return (
@@ -400,7 +403,43 @@ function App() {
             developer, have a query, or simply want to connect.
           </div>
         </div>
+        <div className="email-and-number-wrapper">
+          <div className="email-wrapper">
+            <div className="first-icon">
+              <img src={emailicon} className="front-icon"></img>
+            </div>
+            <div className="credential">reachsagarshah@gmail.com</div>
+            <div className="second-icon">
+              <img src={copyicon} className="back-icon"></img>
+            </div>
+          </div>
+          <div className="email-wrapper">
+            <div className="first-icon">
+              <img src={phoneicon} className="front-icon"></img>
+            </div>
+            <div className="credential">+91 8980500565</div>
+            <div className="second-icon">
+              <img src={copyicon} className="back-icon"></img>
+            </div>
+          </div>
+        </div>
+        <div className="redirect-wrapper">
+          <div className="redirect-text">
+            You may also find me on these platforms!
+          </div>
+          <div className="redirect-logos">
+            <img src={github} className="logo-redirect"></img>
+            <img src={stackoverflow} className="logo-redirect"></img>
+            <img src={twitter} className="logo-redirect"></img>
+          </div>
+        </div>
       </div>
+      <footer className="footer-element">
+        <div className="footer-logo">
+          <img src={phoneicon} className="copyright-logo"></img>
+        </div>
+        <div>2023 | Designed and coded with ❤️️ by Sagar Shah</div>
+      </footer>
     </div>
   );
 }
