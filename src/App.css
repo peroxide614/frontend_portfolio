@@ -548,7 +548,6 @@
     gap: 8px;
     font-size: 14px;
 
-    /* started */
     .footer-logo {
       width: 16px;
       height: 16px;
@@ -558,5 +557,40 @@
         height: 100%;
       }
     }
+  }
+}
+
+@media (min-width: 1200px) {
+  .profile-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align the image and text at the top */
+    padding: 64px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .profile-title {
+    margin-bottom: 16px; /* Add spacing between title and description */
+  }
+
+  .my-face-picture {
+    flex: 0 0 350px; /* Fix the image width */
+    max-width: 350px;
+    margin-left: auto; /* Ensure image is positioned on the right */
+    margin-right: 0;
+    order: 2; /* Keep the image in the second order */
+  }
+
+  /* Ensure text on the left is in column format */
+  .profile-info > div:not(.my-face-picture) {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Ensure the text block takes up available space */
+  }
+
+  .project-status-container,
+  .personal-resources {
+    margin-top: 16px;
   }
 }
